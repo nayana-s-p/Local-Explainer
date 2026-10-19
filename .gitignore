@@ -1,0 +1,16 @@
+.venv/
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+build/
+dist/
+*.log
+__pycache__/
+.pytest_cache/
+.pytest-data/
+.test-data/
+.integration-data/
+.packaging-data/
+tools/
+*.blend1
+.native-final-data/

@@ -1,0 +1,36 @@
+{
+  "character_id": "sage-presenter",
+  "display_name": "Sage \u00b7 Sample presenter",
+  "blend_file": "presenter.blend",
+  "minimum_blender_version": "5.2.2",
+  "maximum_blender_version": "5.2.2",
+  "scene": "PresenterScene",
+  "camera": "PresenterCamera",
+  "frame_rate": 24,
+  "transparent_background": true,
+  "viseme_map": {
+    "A": "viseme_A",
+    "B": "viseme_B",
+    "C": "viseme_C",
+    "D": "viseme_D",
+    "E": "viseme_E",
+    "F": "viseme_F",
+    "G": "viseme_G",
+    "H": "viseme_H",
+    "X": "viseme_X"
+  },
+  "idle_action": "GentleIdle",
+  "rig_object": "PresenterRig",
+  "anchor": "bottom-center",
+  "safe_overlay_bounds": [
+    0,
+    0,
+    1,
+    1
+  ],
+  "render_presets": [
+    "square-alpha"
+  ],
+  "required_fonts": [],
+  "required_textures": []
+}
